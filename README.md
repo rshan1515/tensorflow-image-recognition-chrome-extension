@@ -8,7 +8,7 @@ It will only run the recognition if width or height of the image is larger than 
 ## How to try it?
 
 ```sh
-git clone https://github.com/sangshanrupesh/tensorflow-image-recognition-chrome-extension.git
+git clone https://github.com/JK0N/tensorflow-image-recognition-chrome-extension.git
 ```
 
 ```sh
@@ -37,11 +37,11 @@ npm run build
 ## Examples
 
 <p>
-  <img src="https://raw.githubusercontent.com/sangshanrupesh/tensorflow-image-recognition-chrome-extension/master/examples/lion-fish.png" />
+  <img src="https://raw.githubusercontent.com/JK0N/tensorflow-image-recognition-chrome-extension/master/examples/lion-fish.png" />
   <b>Lion fish</b>
 </p>
 
 <p>
-  <img src="https://raw.githubusercontent.com/sangshanrupesh/tensorflow-image-recognition-chrome-extension/master/examples/hotdog.png" />
+  <img src="https://raw.githubusercontent.com/JK0N/tensorflow-image-recognition-chrome-extension/master/examples/hotdog.png" />
   <b>Hot dog</b>
 </p>

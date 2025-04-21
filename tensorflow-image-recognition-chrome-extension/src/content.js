@@ -28,19 +28,3 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 window.addEventListener('load', setImageTitles, false);
-
-console.log('Content script loaded.');
-
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  try {
-    if (message && message.payload && message.action === 'IMAGE_PROCESSED') {
-      const { payload } = message;
-      if (payload && payload.url) {
-        imageMeta[payload.url] = payload;
-        setImageTitles();
-      }
-    }
-  } catch (error) {
-    console.error('Error processing message:', error);
-  }
-});
