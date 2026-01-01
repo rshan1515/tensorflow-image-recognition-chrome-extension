@@ -1,4 +1,8 @@
-messages: []
+messages:
+  - role: assistant
+    content: code
+  - role: user
+    content: code
 model: openai/gpt-5
 responseFormat: json_object
 modelParameters:
